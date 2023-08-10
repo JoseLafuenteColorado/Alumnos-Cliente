@@ -1,0 +1,25 @@
+{
+    "name": "josel/articulos-mvc",
+    "description": "Cliente de API/REST Articulos",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Josel\\ArticulosMvc\\": "app/",
+            "App\\": "app/",
+            "App\\controllers\\": "app/controllers",
+            "App\\models\\": "app/models",
+            "App\\views\\": "app/views",
+            "public\\": "public/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "José Lafuente Colorado",
+            "email": "91894224+JoseLafuenteColorado@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
